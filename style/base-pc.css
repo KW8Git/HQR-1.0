@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+hr{
+    width: 100%;
+    height: 1px;
+    background-color: dimgrey;
+}
+/*----------animate.css 动画时间控制----------*/
+.logo{
+  -webkit-animation-duration: 2s;
+/*  -webkit-animation-delay: 2s;*/
+/*  -webkit-animation-iteration-count: infinite;*/
+}
+.lhr{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 2s;
+}
+.rhr{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 2s;
+}
+/*-------------------*/
+#big_container{
+    width: 100%;
+    height: auto;
+    background: url("../images/bg_img.png") center no-repeat;
+    background-size: 100%;
+}
+/******/
+header{
+    height: 114px;
+/*    background-color: dimgrey;*/
+}
+header .logo_container{
+    text-align: center;
+    height: 166px;
+    line-height: 210px;
+    position: relative;
+}
+header .logo_container .rhr{
+    position: relative;
+    top: 83px;
+    width: 601px;
+    float: right;
+    display: inline-block;
+    display: none;
+}
+header .logo_container .lhr{
+    position: relative;
+    top: 83px;
+    width: 601px;
+    float: left;
+    display: inline-block;
+    display: none;
+}
+header .logo_container .logo{
+    display: none;
+    width: 146px;
+    height: 60px;
+}
+/******/
+#main{
+    height: 501px;
+    background-color: rgba(128,128,128,.3);
+}
+#main .content{
+    padding-top: 50px;
+    text-align: center;
+}
+#main .content h2{
+    display: none;
+    color: white;
+    font-size: 30px;
+    font-family: "The Hit";
+}
+#main .content p{
+    display: none;
+    color: ghostwhite;
+    font-size: 15px;
+    font-family: "The Hit";
+    line-height: 30px;
+}
+/******/
+footer{
+    height: 50px;
+/*    background-color: rgba(128,128,128,.5);*/
+    position: relative;
+}
+footer .alink{
+    text-align: center;
+}
+footer .alink a{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    margin-top: 1px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    background-color: #ff3666;
+}
+footer .alink a:hover{
+    color: chocolate;
+    border: 1px solid #fff;
+}
+footer address{
+    font-size: 16px;
+    font-weight: bold;
+/*    color: #aaafff;*/
+/*    color: #aaaeee;*/
+    color: chocolate;
+    float: right;
+    margin-right: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 52px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
