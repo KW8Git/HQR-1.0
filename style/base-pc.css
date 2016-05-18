@@ -14,6 +14,7 @@ hr{
 /*  -webkit-animation-delay: 2s;*/
 /*  -webkit-animation-iteration-count: infinite;*/
 }
+/*********************************************/
 .lhr{
     -webkit-animation-duration: 2s;
     -webkit-animation-delay: 2s;
@@ -22,13 +23,39 @@ hr{
     -webkit-animation-duration: 2s;
     -webkit-animation-delay: 2s;
 }
+/*---------------浏览器----------*/
+.brower-noChrome{
+	background: url("../images/bg_img.png") center no-repeat;
+}
+/*------------------------------*/
+
+/*-------------------------webp------------------------------------*/
+.big_bg_img{
+	position: absolute;
+	width: 100%;
+	height: 666px;
+	overflow: hidden;
+	z-index: -100;
+}
+.big_bg_img img{
+	position: absolute;
+
+	width: 100%;
+	/*height: 668px;*/
+	display: none;
+	z-index: 0;
+}
+span hr{
+	z-index: 5;
+}
+/*-----------------------------------------------------------------*/
 /*-------------------*/
 #big_container{
     width: 100%;
     height: auto;
-    background: url("../images/bg_img.webp") center no-repeat;
     background-size: 100%;
 }
+
 /******/
 header{
     height: 114px;
@@ -103,6 +130,8 @@ footer .alink a{
     line-height: 30px;
     text-decoration: none;
     background-color: #ff3666;
+    
+    border-radius: 5px;
 }
 footer .alink a:hover{
     color: chocolate;
